@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+Costume Shop
+=============
+By: Andrew Mickel
+=============
+An app used for keeping track of costumes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description
+----------------
 
-## Available Scripts
 
-In the project directory, you can run:
+Technologies used
+--------------------
+* JavaScript
+* HTML
+* CSS
+* React
 
-### `npm start`
+Setup/installation instructions
+---------------------
+1. You will need Git bash to get this project working on your computer. Grab it here: [Git bash link]
+2. Download the zip file from the green dropdown menu with the words < > Code on it.
+3. 
+4. 
+5. 
+6. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Project requirements
+--------------------
+- [x] Add full CRUD functionality for types of events to be logged. For instance, in a bird-watching application, a user might add "Spotted Sandpiper" to indicate a viewing of that kind of bird.
+- [x] Allow users to increment the event by one when there is a viewing, a play of the game, or so on. Users should also be able to decrement an event (for instance, if they made a mistake).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Additional exploration
+----------------------
+- [x] Add a background. Also make the background scale with the size of the display.
+- [ ] Add a multiple pages function into the site for organization purposes.
 
-### `npm test`
+Diagram
+----------------------
+[Diagram of project]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Image of Diagram]
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Table of contents
+----------------------
+| Time | Sheet |       |
+| ---- | ------| ------|
+| Day | Hours | Desc |
+| 5/29 | 3 hours | planning project |
+| 5/30 | 3 hours | worked on drawio file |
+| 5/31 | 3 hours | worked on drawio file |
+| 6/3 | 3 hours |       |
+|     |       |       |
+|     |       |       |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Known Bugs
+--------------------
+No known bugs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+License
+--------------------
+[MIT](./LICENSE.txt) Copyright (c) 2024 Andrew Mickel
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Diagram of project]: diagram.drawio
+[Git bash link]: 
