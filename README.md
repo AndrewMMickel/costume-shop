@@ -49,9 +49,14 @@ Table of contents
 | 5/29 | 3 hours | planning project |
 | 5/30 | 3 hours | worked on drawio file |
 | 5/31 | 3 hours | worked on drawio file |
-| 6/3 | 3 hours |       |
-|     |       |       |
-|     |       |       |
+| 6/3 | 3 hours | started building project |
+| 6/4 | 3 hours | worked on CostumeControl |
+| 6/5 | 3 hours | worked on CostumeControl |
+| 6/6 | 3 hours | worked on CostumeControl |
+| 6/7 | 3 hours | worked on CostumeControl |
+| 6/10 | 3 hours | worked on CostumeControl |
+| 6/11 | 3 hours | worked on CostumeControl |
+| 6/12 | 3 hours | worked on CostumeControl |
 
 Known Bugs
 --------------------

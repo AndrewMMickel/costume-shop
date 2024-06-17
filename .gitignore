@@ -12,7 +12,7 @@
 /build
 
 # misc
-doc/Requirements.text
+/Requirements.txt
 .DS_Store
 .env.local
 .env.development.local
