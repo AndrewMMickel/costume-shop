@@ -57,6 +57,10 @@ Table of contents
 | 6/10 | 3 hours | worked on CostumeControl |
 | 6/11 | 3 hours | worked on CostumeControl |
 | 6/12 | 3 hours | worked on CostumeControl |
+| 6/14 | 3 hours | worked on Create functionality |
+| 6/17 | 3 hours | worked on Create functionality |
+| 6/18 | 3 hours | worked on CostumeControl |
+| 6/20 | 3 hours | worked on CostumeControl |
 
 Known Bugs
 --------------------

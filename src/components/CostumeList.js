@@ -12,6 +12,8 @@ function CostumeList(props) {
                     whenCostumeClicked={props.onCostumeSelection}
                     imageurl={costume.imageurl}
                     names={costume.names}
+                    brand={costume.brand}
+                    price={costume.price}
                     size={costume.size}
                     description={costume.description}
                     id={costume.id}

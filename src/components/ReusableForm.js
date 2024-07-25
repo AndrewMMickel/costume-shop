@@ -17,6 +17,14 @@ function ReusableForm(props) {
                     placeholder='Costume Name' />
                 <input
                     type='text'
+                    name='brand'
+                    placeholder='Brand' />
+                <input
+                    type='number'
+                    name='price'
+                    placeholder='Price' />
+                <input
+                    type='text'
                     name='size'
                     placeholder='Size' />
                 <textarea
@@ -30,6 +38,7 @@ function ReusableForm(props) {
 
 ReusableForm.propTypes = {
     formSubmissionHandler: PropTypes.func,
+    partFormSubmissionHandler: PropTypes.func,
     buttonText: PropTypes.string
 };
 

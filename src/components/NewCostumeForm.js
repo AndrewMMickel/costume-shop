@@ -9,6 +9,8 @@ function NewCostumeForm(props) {
         props.onNewCostumeCreation({
             names: costume.target.names.value,
             imageurl: costume.target.imageurl.value,
+            brand: costume.target.brand.value,
+            price: costume.target.price.value,
             size: costume.target.size.value,
             description: costume.target.description.value,
             quantity: 0,
