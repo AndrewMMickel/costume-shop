@@ -8,6 +8,7 @@ class CostumeControl extends React.Component {
         super(props);
         this.state = {
             formVisibleOnPage: false,
+            formPartVisibleOnPage: false,
             mainCostumeList: [],
             mainCostumePartList: [],
             selectedCostume: null,
@@ -23,7 +24,7 @@ class CostumeControl extends React.Component {
             });
         } else {
             this.setState(prevState => ({
-                formVisibleOnPage: !prevState.formVisibleOnPage,
+                formVisibleOnPage: !prevState.formVisibleOnPage
             }));
         }
     }
@@ -31,13 +32,13 @@ class CostumeControl extends React.Component {
     handleClickPart = () => {
         if (this.state.selectedCostumePart != null) {
             this.setState({
-                formVisibleOnPage: false,
+                formPartVisibleOnPage: false,
                 selectedCostumePart: null,
                 editing: false
             });
         } else {
             this.setState(prevState => ({
-                formVisibleOnPage: !prevState.formVisibleOnPage,
+                formPartVisibleOnPage: !prevState.formPartVisibleOnPage
             }));
         }
     }
@@ -136,8 +137,8 @@ class CostumeControl extends React.Component {
         return (
             <React.Fragment>
                 {currentlyVisibleState}
-                <button id="buttonStyle" onClick={this.handleClick}>{buttonText}</button>
-                <button id="buttonStyle" onClick={this.handleClickPart}>{buttonText2}</button>
+                <button id="buttonStyle" className="button-comp" onClick={this.handleClick}>{buttonText}</button>
+                <button id="buttonStyle" className="button-comp" onClick={this.handleClickPart}>{buttonText2}</button>
             </React.Fragment>
         );
     }

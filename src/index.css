@@ -7,6 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.costume-comp {
+  width: 40%;
+  height: auto;
+  margin: 1% auto;
+  display: block;
+  justify-content: space-evenly;
+  border: solid;
+  padding-left: 0px;
+  color: #aa0000;
+  border-radius: 7px;
+  text-align: center;
+  transition: .3s ease-in-out;
+  background-color: #353535;
+}
+
+.button-comp {
+  text-align: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

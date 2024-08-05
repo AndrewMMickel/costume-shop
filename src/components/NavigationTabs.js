@@ -6,8 +6,8 @@ const navTabStyles = {
 }
 
 const navBtnStyles = {
-    border: "3px solid #00aa17",
-    color: "#00aa17",
+    border: "3px solid #aa0000",
+    color: "#aa0000",
     height: "100%",
     width: "20%",
     fontSize: "1.1vw",

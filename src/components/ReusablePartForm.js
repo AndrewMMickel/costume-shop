@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function ReusableForm(props) {
+function ReusablePartForm(props) {
     return (
         <React.Fragment>
-            <form onSubmit={props.formSubmissionHandler}>
+            <form onSubmit={props.partFormSubmissionHandler}>
                 <label htmlFor='imageurl'>Image url</label><br />
                 <input
                     type='text'
@@ -37,9 +37,9 @@ function ReusableForm(props) {
     );
 }
 
-ReusableForm.propTypes = {
-    formSubmissionHandler: PropTypes.func,
+ReusablePartForm.propTypes = {
+    partFormSubmissionHandler: PropTypes.func,
     buttonText: PropTypes.string
 };
 
-export default ReusableForm;
+export default ReusablePartForm;

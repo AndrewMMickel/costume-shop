@@ -1,7 +1,7 @@
 import React from "react";
 import { v4 } from 'uuid';
 import PropTypes from "prop-types";
-import ReusableForm from "./ReusableForm";
+import ReusablePartForm from "./ReusablePartForm";
 function NewCostumePartForm(props) {
     function handleNewCostumePartFormSubmission(costumePart) {
         console.log(costumePart.target);
@@ -9,6 +9,8 @@ function NewCostumePartForm(props) {
         props.onNewCostumePartCreation({
             names: costumePart.target.names.value,
             imageurl: costumePart.target.imageurl.value,
+            brand: costumePart.target.brand.value,
+            price: costumePart.target.price.value,
             size: costumePart.target.size.value,
             description: costumePart.target.description.value,
             quantity: 0,
@@ -18,7 +20,7 @@ function NewCostumePartForm(props) {
 
     return (
         <React.Fragment>
-            <ReusableForm
+            <ReusablePartForm
                 partFormSubmissionHandler={handleNewCostumePartFormSubmission}
                 buttonText="Add costume Part!" />
         </React.Fragment>

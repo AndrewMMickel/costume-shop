@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import CostumeControl from "./CostumeControl";
+import './../App.css'
 
 function App() {
   return (
