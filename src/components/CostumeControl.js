@@ -1,5 +1,6 @@
 import React from 'react';
 import NewCostumeForm from './NewCostumeForm';
+import NewCostumePartForm from './NewCostumePartForm'
 import CostumeList from './CostumeList';
 import CostumeDetail from './CostumeDetail';
 import CostumePartDetail from './CostumePartDetail'
@@ -30,6 +31,7 @@ class CostumeControl extends React.Component {
     }
 
     handleClickPart = () => {
+        console.log("Click");
         if (this.state.selectedCostumePart != null) {
             this.setState({
                 formPartVisibleOnPage: false,
@@ -52,10 +54,10 @@ class CostumeControl extends React.Component {
     }
 
     handleAddingNewCostumePartToList = (newCostumePart) => {
-        const newMainCostumePartList = this.state.mainCostumeList.concat(newCostumePart);
+        const newMainCostumePartList = this.state.mainCostumePartList.concat(newCostumePart);
         this.setState({
             mainCostumePartList: newMainCostumePartList,
-            formVisibleOnPage: false
+            formPartVisibleOnPage: false
         });
     }
 
@@ -129,6 +131,9 @@ class CostumeControl extends React.Component {
         } else if (this.state.formVisibleOnPage) {
             currentlyVisibleState = <NewCostumeForm onNewCostumeCreation={this.handleAddingNewCostumeToList} />;
             buttonText = "Return to Costume List";
+        } else if (this.state.formPartVisibleOnPage) {
+            currentlyVisibleState = <NewCostumePartForm onNewCostumePartCreation={this.handleAddingNewCostumePartToList} />;
+            buttonText = "Return to Home Page";
         } else {
             currentlyVisibleState = <CostumeList costumeList={this.state.mainCostumeList} onCostumeSelection={this.handleChangingSelectedCostume} />;
             buttonText = "Add Costume";

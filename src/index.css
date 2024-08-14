@@ -22,6 +22,14 @@ body {
   background-color: #353535;
 }
 
+.costume-comp:hover {
+  box-shadow: 10px 10px rgb(11, 71, 11);
+  width: 41%;
+  font-size: large;
+  transform: translateX(-15px);
+
+}
+
 .button-comp {
   text-align: center;
 }
