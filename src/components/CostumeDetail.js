@@ -1,14 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
-
+import CostumePartList from './CostumePartList'
 function CostumeDetail(props) {
     const { costume, onClickingDelete, onAddingStock, onSubtractingStock } = props;
+    console.log(props)
 
     return (
         <React.Fragment>
             <div className="costume-detail">
                 <h1>costume Details</h1>
-                <img src={costume.imageurl ? props.costume.imageurl : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png?20200912122019"} alt="" />
+                <img src={costume.imageurl ? costume.imageurl : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png?20200912122019"} alt="" />
                 <h3>Name: {costume.names}</h3>
                 <p>Brand: {costume.brand}</p>
                 <p>Price: {costume.price}</p>
@@ -22,6 +23,11 @@ function CostumeDetail(props) {
                 <button id="buttonStyle" onClick={() => onClickingDelete(costume.id)}>Remove costume</button>
                 <hr />
             </div>
+
+            <div className="costume-part-list">
+                <CostumePartList costumePartList={props.costumePartList} />
+            </div>
+
         </React.Fragment>
     );
 }
@@ -31,7 +37,8 @@ CostumeDetail.propTypes = {
     onClickingDelete: PropTypes.func,
     onClickingEdit: PropTypes.func,
     onAddingStock: PropTypes.func,
-    onSubtractingStock: PropTypes.func
+    onSubtractingStock: PropTypes.func,
+    costumePartList: PropTypes.array
 };
 
 export default CostumeDetail;

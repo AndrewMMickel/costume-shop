@@ -2,6 +2,7 @@ import React from 'react';
 import NewCostumeForm from './NewCostumeForm';
 import NewCostumePartForm from './NewCostumePartForm'
 import CostumeList from './CostumeList';
+import CostumePartList from './CostumePartList'
 import CostumeDetail from './CostumeDetail';
 import CostumePartDetail from './CostumePartDetail'
 class CostumeControl extends React.Component {
@@ -13,6 +14,7 @@ class CostumeControl extends React.Component {
             mainCostumeList: [],
             mainCostumePartList: [],
             selectedCostume: null,
+            selectedCostumePart: null,
         };
     }
 
@@ -112,6 +114,7 @@ class CostumeControl extends React.Component {
     }
     render() {
         let currentlyVisibleState = null;
+        let currentlyVisibleState2 = null;
         let buttonText = null;
         let buttonText2 = null;
         if (this.state.selectedCostume != null) {
@@ -120,7 +123,8 @@ class CostumeControl extends React.Component {
                     costume={this.state.selectedCostume}
                     onClickingDelete={this.handleDeletingCostume}
                     onAddingStock={this.handleAddingStock}
-                    onSubtractingStock={this.handleSubtractingStock} />
+                    onSubtractingStock={this.handleSubtractingStock}
+                    costumePartList={this.state.mainCostumePartList} />
             buttonText = "Return to Costume List";
         } else if (this.state.selectedCostumePart != null) {
             currentlyVisibleState =
@@ -136,12 +140,14 @@ class CostumeControl extends React.Component {
             buttonText = "Return to Home Page";
         } else {
             currentlyVisibleState = <CostumeList costumeList={this.state.mainCostumeList} onCostumeSelection={this.handleChangingSelectedCostume} />;
+            currentlyVisibleState2 = <CostumePartList costumePartList={this.state.mainCostumePartList} onCostumePartSelection={this.handleChangingSelectedCostumePart} />
             buttonText = "Add Costume";
             buttonText2 = "Add Costume Part";
         }
         return (
             <React.Fragment>
                 {currentlyVisibleState}
+                {currentlyVisibleState2}
                 <button id="buttonStyle" className="button-comp" onClick={this.handleClick}>{buttonText}</button>
                 <button id="buttonStyle" className="button-comp" onClick={this.handleClickPart}>{buttonText2}</button>
             </React.Fragment>

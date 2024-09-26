@@ -2,14 +2,14 @@ import React from "react";
 import CostumePart from "./CostumePart";
 import PropTypes from "prop-types";
 
-function CostumeList(props) {
+function CostumePartList(props) {
 
     return (
         <React.Fragment>
             <hr />
             {props.costumePartList.map((costumePart) =>
                 <CostumePart
-                    whenCostumeClicked={props.onCostumeSelection}
+                    whenCostumePartClicked={props.onCostumePartSelection}
                     imageurl={costumePart.imageurl}
                     names={costumePart.names}
                     size={costumePart.size}
@@ -21,9 +21,9 @@ function CostumeList(props) {
     );
 }
 
-CostumeList.propTypes = {
+CostumePartList.propTypes = {
     costumePartList: PropTypes.array,
     onCostumePartSelection: PropTypes.func
 };
 
-export default CostumeList;
+export default CostumePartList;

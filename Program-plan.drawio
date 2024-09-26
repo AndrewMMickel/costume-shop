@@ -82,7 +82,7 @@
                 <mxCell id="17" value="Objects labeled as Costumes. These hold information on an objects name, brand, price, size, quantity, and extra information. All of this information can be viewed by clicking on the object, pulling up the object in CostumeDetail.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
                     <mxGeometry x="40" y="460" width="440" height="250" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                <mxCell id="18" value="Objects labeled as Costume Parts. These hold information on an objects name, brand, price, size, quantity, extra information, and which Costume they are connected to. These objects can be viewed by clicking on a Costume to view CostumeDetail. The Costume Part will be in a list underneath the Costume." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="50" y="750" width="420" height="280" as="geometry"/>
                 </mxCell>
             </root>

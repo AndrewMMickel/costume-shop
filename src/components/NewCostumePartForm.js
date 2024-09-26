@@ -28,6 +28,6 @@ function NewCostumePartForm(props) {
 }
 
 NewCostumePartForm.propTypes = {
-    onNewCostumeCreation: PropTypes.func
+    onNewCostumePartCreation: PropTypes.func
 };
 export default NewCostumePartForm;
