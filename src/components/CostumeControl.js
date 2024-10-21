@@ -13,6 +13,7 @@ class CostumeControl extends React.Component {
             formPartVisibleOnPage: false,
             mainCostumeList: [],
             mainCostumePartList: [],
+            selectedCostumeList: [],
             selectedCostume: null,
             selectedCostumePart: null,
         };
@@ -61,6 +62,18 @@ class CostumeControl extends React.Component {
             mainCostumePartList: newMainCostumePartList,
             formPartVisibleOnPage: false
         });
+    }
+
+    handleAddingCostumePartToCostume = (newCostumeList) => {
+        console.log("activated")
+
+        const newSelectedCostumeList = this.state.selectedCostumeList.concat(newCostumeList);
+        this.setState({
+            selectedCostumeList: newSelectedCostumeList
+        });
+        // give parameter that takes in id of part AND currently selected costume
+        // add array of parts that costume is associated with
+        //PUSH didn't work, trying CONCAT instead
     }
 
     handleChangingSelectedCostume = (id) => {
@@ -124,7 +137,9 @@ class CostumeControl extends React.Component {
                     onClickingDelete={this.handleDeletingCostume}
                     onAddingStock={this.handleAddingStock}
                     onSubtractingStock={this.handleSubtractingStock}
-                    costumePartList={this.state.mainCostumePartList} />
+                    costumePartList={this.state.mainCostumePartList}
+                    selectedCostumeList={this.state.selectedCostumeList} //new
+                    onAddCostumePart={this.handleAddingCostumePartToCostume} />
             buttonText = "Return to Costume List";
         } else if (this.state.selectedCostumePart != null) {
             currentlyVisibleState =

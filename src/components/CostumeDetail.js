@@ -1,8 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import CostumePartList from './CostumePartList'
+import CostumePart from "./CostumePart";
+
 function CostumeDetail(props) {
-    const { costume, onClickingDelete, onAddingStock, onSubtractingStock } = props;
+    const { costume, onClickingDelete, onAddingStock, onSubtractingStock, onAddCostumePart } = props;
+
     console.log(props)
 
     return (
@@ -22,12 +25,16 @@ function CostumeDetail(props) {
                 </h3>
                 <button id="buttonStyle" onClick={() => onClickingDelete(costume.id)}>Remove costume</button>
                 <hr />
+                {/* function to add CostumePart to Costume should be in costume control */}
+                <select
+                    onChange={(e) => onAddCostumePart(e.target.value)}>
+                    {props.costumePartList.map((part) => (
+                        <option key={part.id} value={part.id}>
+                            {part.names}
+                        </option>
+                    ))}
+                </select>
             </div>
-
-            <div className="costume-part-list">
-                <CostumePartList costumePartList={props.costumePartList} />
-            </div>
-
         </React.Fragment>
     );
 }
