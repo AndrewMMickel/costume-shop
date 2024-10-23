@@ -64,7 +64,7 @@ class CostumeControl extends React.Component {
         });
     }
 
-    handleAddingCostumePartToCostume = (newCostumeList) => {
+    handleAddingCostumePartToCostume = (newCostumeList) => { //New
         console.log("activated")
 
         const newSelectedCostumeList = this.state.selectedCostumeList.concat(newCostumeList);
@@ -73,7 +73,7 @@ class CostumeControl extends React.Component {
         });
         // give parameter that takes in id of part AND currently selected costume
         // add array of parts that costume is associated with
-        //PUSH didn't work, trying CONCAT instead
+        //currently works with adding keys
     }
 
     handleChangingSelectedCostume = (id) => {

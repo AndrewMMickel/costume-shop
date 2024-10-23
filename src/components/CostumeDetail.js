@@ -1,10 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import CostumePartList from './CostumePartList'
 import CostumePart from "./CostumePart";
 
 function CostumeDetail(props) {
-    const { costume, onClickingDelete, onAddingStock, onSubtractingStock, onAddCostumePart } = props;
+    const { costume, onClickingDelete, onAddingStock, onSubtractingStock, onAddCostumePart, selectedCostumeList } = props;
 
     console.log(props)
 
@@ -34,6 +33,7 @@ function CostumeDetail(props) {
                         </option>
                     ))}
                 </select>
+                <p>CostumeList: {selectedCostumeList.length}</p>
             </div>
         </React.Fragment>
     );
@@ -45,7 +45,8 @@ CostumeDetail.propTypes = {
     onClickingEdit: PropTypes.func,
     onAddingStock: PropTypes.func,
     onSubtractingStock: PropTypes.func,
-    costumePartList: PropTypes.array
+    costumePartList: PropTypes.array,
+    selectedCostumeList: PropTypes.array
 };
 
 export default CostumeDetail;
