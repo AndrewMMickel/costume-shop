@@ -4,7 +4,8 @@ import NewCostumePartForm from './NewCostumePartForm'
 import CostumeList from './CostumeList';
 import CostumePartList from './CostumePartList'
 import CostumeDetail from './CostumeDetail';
-import CostumePartDetail from './CostumePartDetail'
+import CostumePartDetail from './CostumePartDetail';
+import CostumePart from './CostumePart';
 class CostumeControl extends React.Component {
     constructor(props) {
         super(props);
@@ -13,7 +14,18 @@ class CostumeControl extends React.Component {
             formPartVisibleOnPage: false,
             mainCostumeList: [],
             mainCostumePartList: [],
-            selectedCostumeList: [],
+            selectedCostumeList: [
+                // {
+                //     names: 'NAN',
+                //     imageurl: 'NAN',
+                //     brand: 'NAN',
+                //     price: 'NAN',
+                //     size: 'NAN',
+                //     quantity: 0,
+                //     id: 'NAN',
+                //     description: 'NAN'
+                // }
+            ],
             selectedCostume: null,
             selectedCostumePart: null,
         };
@@ -64,10 +76,9 @@ class CostumeControl extends React.Component {
         });
     }
 
-    handleAddingCostumePartToCostume = (newCostumeList) => { //New
-        console.log("activated")
-
-        const newSelectedCostumeList = this.state.selectedCostumeList.concat(newCostumeList);
+    handleAddingCostumePartToCostume = (id) => { //New
+        const selectedCostumePart = this.state.mainCostumePartList.filter(costumePart => costumePart.id === id)[0];
+        const newSelectedCostumeList = this.state.selectedCostumeList.concat(selectedCostumePart);
         this.setState({
             selectedCostumeList: newSelectedCostumeList
         });

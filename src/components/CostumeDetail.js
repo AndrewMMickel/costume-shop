@@ -1,11 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import CostumePart from "./CostumePart";
 
 function CostumeDetail(props) {
     const { costume, onClickingDelete, onAddingStock, onSubtractingStock, onAddCostumePart, selectedCostumeList } = props;
-
-    console.log(props)
 
     return (
         <React.Fragment>
@@ -24,8 +21,7 @@ function CostumeDetail(props) {
                 </h3>
                 <button id="buttonStyle" onClick={() => onClickingDelete(costume.id)}>Remove costume</button>
                 <hr />
-                {/* function to add CostumePart to Costume should be in costume control */}
-                <select
+                <p>Add a part! </p><select
                     onChange={(e) => onAddCostumePart(e.target.value)}>
                     {props.costumePartList.map((part) => (
                         <option key={part.id} value={part.id}>
@@ -33,7 +29,20 @@ function CostumeDetail(props) {
                         </option>
                     ))}
                 </select>
-                <p>CostumeList: {selectedCostumeList.length}</p>
+                {(selectedCostumeList != null) &&
+                    <div>
+                        {props.selectedCostumeList.map((part) =>
+                            <>
+                                <h1>Selected Part: {part?.names}</h1>
+                                <p><img src={part?.imageurl ? part.imageurl : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png?20200912122019"} alt="" /></p>
+                                <p>Brand: {part?.brand}</p>
+                                <p>Size: {part?.size}</p>
+                                <p>Description: {part?.description}</p>
+                            </>
+                        )}
+                    </div>
+                    //loop over array, look at PartList for example
+                }
             </div>
         </React.Fragment>
     );

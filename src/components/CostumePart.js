@@ -7,6 +7,7 @@ function CostumePart(props) {
             <div onClick={() => props.whenCostumePartClicked(props.id)} className="costumePart-comp">
                 <img src={props.imageurl ? props.imageurl : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png?20200912122019"} alt={props.name} />
                 <h3>{props.partNames}</h3>
+                <p>{props.partBrand}</p>
                 <p><em>{props.partSize}</em></p>
                 <p><em>{props.partDescription}</em></p>
                 <p>{props.partQuantity}</p>

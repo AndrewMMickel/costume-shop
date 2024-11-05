@@ -12,6 +12,7 @@ function CostumePartList(props) {
                     whenCostumePartClicked={props.onCostumePartSelection}
                     imageurl={costumePart.imageurl}
                     names={costumePart.names}
+                    brand={costumePart.brand}
                     size={costumePart.size}
                     description={costumePart.description}
                     id={costumePart.id}
