@@ -6,7 +6,7 @@ An app used for keeping track of costumes
 
 Description
 ----------------
-
+In this project users can create costumes of any character they can think of. They can add a price, the size, and the brand of the costume along with other information, including a picture! Users are also able to create individual parts of a costume and add these parts to a costume's page, like say a pair of boots on a Wolverine costume.
 
 Technologies used
 --------------------
@@ -26,13 +26,12 @@ Setup/installation instructions
 
 Project requirements
 --------------------
-- [x] Add full CRUD functionality for types of events to be logged. For instance, in a bird-watching application, a user might add "Spotted Sandpiper" to indicate a viewing of that kind of bird.
-- [x] Allow users to increment the event by one when there is a viewing, a play of the game, or so on. Users should also be able to decrement an event (for instance, if they made a mistake).
+- [x] Add full CRUD functionality for costumes logged. For instance, users can create a Jiraiya costume and have said costume show up on the main page.
+- [x] Allow users to add individual parts of a costume to said costume. For instance, User should be able to add items like boots or shoes to a list inside the costume's page.
 
 Additional exploration
 ----------------------
 - [x] Add a background. Also make the background scale with the size of the display.
-- [ ] Add a multiple pages function into the site for organization purposes.
 
 Diagram
 ----------------------
@@ -43,24 +42,7 @@ Diagram
 
 Table of contents
 ----------------------
-| Time | Sheet |       |
-| ---- | ------| ------|
-| Day | Hours | Desc |
-| 5/29 | 3 hours | planning project |
-| 5/30 | 3 hours | worked on drawio file |
-| 5/31 | 3 hours | worked on drawio file |
-| 6/3 | 3 hours | started building project |
-| 6/4 | 3 hours | worked on CostumeControl |
-| 6/5 | 3 hours | worked on CostumeControl |
-| 6/6 | 3 hours | worked on CostumeControl |
-| 6/7 | 3 hours | worked on CostumeControl |
-| 6/10 | 3 hours | worked on CostumeControl |
-| 6/11 | 3 hours | worked on CostumeControl |
-| 6/12 | 3 hours | worked on CostumeControl |
-| 6/14 | 3 hours | worked on Create functionality |
-| 6/17 | 3 hours | worked on Create functionality |
-| 6/18 | 3 hours | worked on CostumeControl |
-| 6/20 | 3 hours | worked on CostumeControl |
+
 
 Known Bugs
 --------------------
@@ -70,5 +52,5 @@ License
 --------------------
 [MIT](./LICENSE.txt) Copyright (c) 2024 Andrew Mickel
 
-[Diagram of project]: diagram.drawio
+[Diagram of project]: Program-plan.drawio
 [Git bash link]: 

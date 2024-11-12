@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="rad-OM3xAtKhfUTnnuqS">
-        <mxGraphModel dx="1186" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1242" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -16,8 +16,8 @@
                 <mxCell id="HdBy2Fx3M0TaIa8yCIId-3" value="Header" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="820" y="80" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="HdBy2Fx3M0TaIa8yCIId-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="10" y="190" width="1680" height="880" as="geometry"/>
+                <mxCell id="HdBy2Fx3M0TaIa8yCIId-4" value="&#10;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-weight: 400; font-style: normal; font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: baseline; outline: 0px; color: oklab(0.89908 -0.00192907 -0.0048306); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: oklab(0.321044 -0.000249296 -0.00927344); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;on &lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-weight: 400; font-style: normal; font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: baseline; outline: 0px; color: oklab(0.89908 -0.00192907 -0.0048306); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: oklab(0.321044 -0.000249296 -0.00927344); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-weight: 400; font-style: normal; font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: baseline; outline: 0px; color: oklab(0.89908 -0.00192907 -0.0048306); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: oklab(0.321044 -0.000249296 -0.00927344); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-weight: 400; font-style: normal; font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: baseline; outline: 0px; color: oklab(0.89908 -0.00192907 -0.0048306); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: oklab(0.321044 -0.000249296 -0.00927344); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-weight: 400; font-style: normal; font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: baseline; outline: 0px; color: oklab(0.89908 -0.00192907 -0.0048306); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: oklab(0.321044 -0.000249296 -0.00927344); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-weight: 400; font-style: normal; font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: baseline; outline: 0px; color: oklab(0.89908 -0.00192907 -0.0048306); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: oklab(0.321044 -0.000249296 -0.00927344); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-weight: 400; font-style: normal; font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: baseline; outline: 0px; color: oklab(0.89908 -0.00192907 -0.0048306); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: oklab(0.321044 -0.000249296 -0.00927344); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;.1 &lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-weight: 400; font-style: normal; font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: baseline; outline: 0px; color: oklab(0.89908 -0.00192907 -0.0048306); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: oklab(0.321044 -0.000249296 -0.00927344); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;(independent project&lt;/span&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-weight: 400; font-style: normal; font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; vertical-align: baseline; outline: 0px; color: oklab(0.89908 -0.00192907 -0.0048306); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: oklab(0.321044 -0.000249296 -0.00927344); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;)&lt;/span&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry y="190" width="1680" height="880" as="geometry"/>
                 </mxCell>
                 <mxCell id="HdBy2Fx3M0TaIa8yCIId-5" value="CostumeControl" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="820" y="190" width="60" height="30" as="geometry"/>
@@ -35,10 +35,10 @@
                     <mxGeometry x="230" y="430" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="HdBy2Fx3M0TaIa8yCIId-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="510" y="230" width="190" height="380" as="geometry"/>
+                    <mxGeometry x="510" y="230" width="260" height="380" as="geometry"/>
                 </mxCell>
                 <mxCell id="HdBy2Fx3M0TaIa8yCIId-11" value="CostumeDetail" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="575" y="230" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="610" y="240" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="720" width="440" height="320" as="geometry"/>
@@ -47,43 +47,73 @@
                     <mxGeometry x="230" y="725" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="510" y="620" width="190" height="440" as="geometry"/>
+                    <mxGeometry x="510" y="620" width="260" height="440" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="CostumePartDetail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="575" y="630" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="605" y="630" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="710" y="230" width="190" height="380" as="geometry"/>
+                    <mxGeometry x="780" y="230" width="260" height="380" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="710" y="620" width="190" height="440" as="geometry"/>
+                    <mxGeometry x="780" y="620" width="260" height="440" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="EditCostumeForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="775" y="230" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="875" y="240" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="EditCostumePartForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="775" y="620" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="875" y="630" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="515" y="880" width="175" height="170" as="geometry"/>
+                    <mxGeometry x="787.5" y="430" width="245" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="717.5" y="880" width="175" height="170" as="geometry"/>
+                    <mxGeometry x="790" y="880" width="242.5" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="ReusableForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="572.5" y="880" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="881.25" y="440" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="ReusableForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="775" y="880" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="881.25" y="880" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="Main list of all costumes in stock. Costume Control gets all information of costumes from this list for the purposes of showing individual costumes." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="260" width="460" height="160" as="geometry"/>
+                    <mxGeometry x="30" y="255" width="460" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="Objects labeled as Costumes. These hold information on an objects name, brand, price, size, quantity, and extra information. All of this information can be viewed by clicking on the object, pulling up the object in CostumeDetail.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
                     <mxGeometry x="40" y="460" width="440" height="250" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="Objects labeled as Costume Parts. These hold information on an objects name, brand, price, size, quantity, extra information, and which Costume they are connected to. These objects can be viewed by clicking on a Costume to view CostumeDetail. The Costume Part will be in a list underneath the Costume." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="750" width="420" height="280" as="geometry"/>
+                    <mxGeometry x="50" y="650" width="420" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Page that allows the user to see the info of a costume. Accessed by clicking on a Costume on the main page, you can see a Costume's name, brand, size, description, quantity of stock, and while on this page you can add CostumeParts to the Costume in a dynamic list. Once added to the Costume, these CostumeParts will be listed below with the same available info.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="270" width="240" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Form that is made to be reusable with code. Good for updating Costumes or making a brand new Costume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="795" y="460" width="230" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Form that is made to be reusable with code. Good for updating Costumes or making a brand new Costume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="796.25" y="910" width="230" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Page that allows the user to see the info of a CostumePart. Accessed by clicking on a CostumePart on the main page, you can see a CostumePart's name, brand, size, description, quantity of stock, ect. CostumeParts can be added to a Costume.&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="660" width="240" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Form that is made to be reusable with code. Used to update a Costume if there is wrong information in the Costume or it is being updated." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="790" y="270" width="230" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Form that is made to be reusable with code. Used to update a Costume if there is wrong information in the CostumePart or it is being updated." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="795" y="660" width="230" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Placeholder, mainly used for styling at the moment." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="110" width="1660" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="840" width="420" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="CostumePartList" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="850" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Main list of all costume parts in stock. Costume Control gets all information of costumes from this list for the purposes of showing individual costumes." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="75" y="840" width="370" height="160" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

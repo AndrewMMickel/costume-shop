@@ -41,7 +41,6 @@ function CostumeDetail(props) {
                             </>
                         )}
                     </div>
-                    //loop over array, look at PartList for example
                 }
             </div>
         </React.Fragment>

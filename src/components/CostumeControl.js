@@ -14,18 +14,7 @@ class CostumeControl extends React.Component {
             formPartVisibleOnPage: false,
             mainCostumeList: [],
             mainCostumePartList: [],
-            selectedCostumeList: [
-                // {
-                //     names: 'NAN',
-                //     imageurl: 'NAN',
-                //     brand: 'NAN',
-                //     price: 'NAN',
-                //     size: 'NAN',
-                //     quantity: 0,
-                //     id: 'NAN',
-                //     description: 'NAN'
-                // }
-            ],
+            selectedCostumeList: [],
             selectedCostume: null,
             selectedCostumePart: null,
         };
@@ -76,15 +65,12 @@ class CostumeControl extends React.Component {
         });
     }
 
-    handleAddingCostumePartToCostume = (id) => { //New
+    handleAddingCostumePartToCostume = (id) => {
         const selectedCostumePart = this.state.mainCostumePartList.filter(costumePart => costumePart.id === id)[0];
         const newSelectedCostumeList = this.state.selectedCostumeList.concat(selectedCostumePart);
         this.setState({
             selectedCostumeList: newSelectedCostumeList
         });
-        // give parameter that takes in id of part AND currently selected costume
-        // add array of parts that costume is associated with
-        //currently works with adding keys
     }
 
     handleChangingSelectedCostume = (id) => {
@@ -149,7 +135,7 @@ class CostumeControl extends React.Component {
                     onAddingStock={this.handleAddingStock}
                     onSubtractingStock={this.handleSubtractingStock}
                     costumePartList={this.state.mainCostumePartList}
-                    selectedCostumeList={this.state.selectedCostumeList} //new
+                    selectedCostumeList={this.state.selectedCostumeList}
                     onAddCostumePart={this.handleAddingCostumePartToCostume} />
             buttonText = "Return to Costume List";
         } else if (this.state.selectedCostumePart != null) {
