@@ -14,6 +14,8 @@ Technologies used
 * HTML
 * CSS
 * React
+* Create-React-App
+* Git
 
 Setup/installation instructions
 ---------------------
@@ -24,14 +26,6 @@ Setup/installation instructions
 5. run the command `npm install` in the git window to install the necessary files to run the project.
 6. Once the files are done installing, run the command `npm run start` in the git window to start the project.
 
-Project requirements
---------------------
-- [x] Add full CRUD functionality for costumes logged. For instance, users can create a Jiraiya costume and have said costume show up on the main page.
-- [x] Allow users to add individual parts of a costume to said costume. For instance, User should be able to add items like boots or shoes to a list inside the costume's page.
-
-Additional exploration
-----------------------
-- [x] Add a background. Also make the background scale with the size of the display.
 
 Diagram
 ----------------------
@@ -52,5 +46,5 @@ License
 --------------------
 [MIT](./LICENSE.txt) Copyright (c) 2024 Andrew Mickel
 
-[Diagram of project]: Program-plan.drawio
+[Diagram of project]: Program-plan.png
 [Git bash link]: 
