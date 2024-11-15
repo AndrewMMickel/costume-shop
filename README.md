@@ -19,19 +19,21 @@ Technologies used
 
 Setup/installation instructions
 ---------------------
-1. You will need Git bash to get this project working on your computer. Grab it here: [Git bash link](https://git-scm.com/downloads)
+1. You will need Node.js and npm to run this project properly. I recommend looking [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for more information.
 2. Download the zip file from the green dropdown menu with the words < > Code on it.
 3. Unzip the file to a folder of your choice.
-4. Open the folder you just unzipped to and do a right click in it with your mouse. A new option should show up in the dropdown menu called "Git Bash here". Select that one to bring up the Git command window.
-5. run the command `npm install` in the git window to install the necessary files to run the project.
-6. Once the files are done installing, run the command `npm run start` in the git window to start the project.
-
+4. Open the folder you just unzipped and copy the address to the folder.
+5. Open Command Prompt. You can easily find it on Windows by using the SEARCH button at the bottom left of your screen and typing Command into the searchbar.
+6. To install the needed Node Modules you'll need to navigate to the project folder. In your Command Prompt type `cd` + Space, and then paste the address you copied earlier.
+7. run the command `npm install` in the command prompt window to install the necessary files to run the project.
+8. run the command `npm audit fix` to get rid of the errors that show up.
+9. Once the files are done installing, run the command `npm start` in the command prompt window to start the project.
 
 Diagram
 ----------------------
 [Diagram of project]
 
-![Image of Diagram]
+![Image of Diagram](/Program-plan.png)
 
 
 Table of contents
