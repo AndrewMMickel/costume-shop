@@ -5,7 +5,6 @@ import CostumeList from './CostumeList';
 import CostumePartList from './CostumePartList'
 import CostumeDetail from './CostumeDetail';
 import CostumePartDetail from './CostumePartDetail';
-import CostumePart from './CostumePart';
 class CostumeControl extends React.Component {
     constructor(props) {
         super(props);
@@ -35,7 +34,6 @@ class CostumeControl extends React.Component {
     }
 
     handleClickPart = () => {
-        console.log("Click");
         if (this.state.selectedCostumePart != null) {
             this.setState({
                 formPartVisibleOnPage: false,
@@ -139,7 +137,7 @@ class CostumeControl extends React.Component {
                     onAddCostumePart={this.handleAddingCostumePartToCostume} />
             buttonText = "Return to Costume List";
         } else if (this.state.selectedCostumePart != null) {
-            currentlyVisibleState =
+            currentlyVisibleState2 =
                 < CostumePartDetail
                     costumePart={this.state.selectedCostumePart}
                     onClickingDelete={this.handleDeletingCostumePart} />
@@ -148,8 +146,9 @@ class CostumeControl extends React.Component {
             currentlyVisibleState = <NewCostumeForm onNewCostumeCreation={this.handleAddingNewCostumeToList} />;
             buttonText = "Return to Costume List";
         } else if (this.state.formPartVisibleOnPage) {
-            currentlyVisibleState = <NewCostumePartForm onNewCostumePartCreation={this.handleAddingNewCostumePartToList} />;
-            buttonText = "Return to Home Page";
+            currentlyVisibleState2 = <NewCostumePartForm onNewCostumePartCreation={this.handleAddingNewCostumePartToList} />;
+            buttonText = "Do not Press"
+            buttonText2 = "Return to Costume List";
         } else {
             currentlyVisibleState = <CostumeList costumeList={this.state.mainCostumeList} onCostumeSelection={this.handleChangingSelectedCostume} />;
             currentlyVisibleState2 = <CostumePartList costumePartList={this.state.mainCostumePartList} onCostumePartSelection={this.handleChangingSelectedCostumePart} />

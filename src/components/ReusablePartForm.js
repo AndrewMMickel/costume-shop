@@ -24,6 +24,10 @@ function ReusablePartForm(props) {
                     name='price'
                     placeholder='Price' />
                 <input
+                    type='number'
+                    name='quantity'
+                    placeholder='Quantity' />
+                <input
                     type='text'
                     name='size'
                     placeholder='Size' />
@@ -31,7 +35,6 @@ function ReusablePartForm(props) {
                     name='description'
                     placeholder='Describe the Costume.' />
                 <button type='submit'>{props.buttonText}</button>
-                <button type='submit'>{props.buttonText2}</button>
             </form>
         </React.Fragment>
     );

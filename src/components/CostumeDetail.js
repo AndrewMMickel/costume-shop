@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function CostumeDetail(props) {
-    const { costume, onClickingDelete, onAddingStock, onSubtractingStock, onAddCostumePart, selectedCostumeList } = props;
+    const { costume, onClickingDelete, onSubtractingStock, onAddCostumePart, selectedCostumeList } = props;
 
     return (
         <React.Fragment>
@@ -17,7 +17,6 @@ function CostumeDetail(props) {
                 <p>amount in stock: {costume.quantity}</p>
                 <h3>Add to Cart?
                     <button id="buttonStyle" onClick={() => onSubtractingStock(costume)}>Yes</button>
-                    <button id="buttonStyle" onClick={() => onAddingStock(costume)}>No</button>
                 </h3>
                 <button id="buttonStyle" onClick={() => onClickingDelete(costume.id)}>Remove costume</button>
                 <hr />
@@ -46,6 +45,7 @@ function CostumeDetail(props) {
         </React.Fragment>
     );
 }
+//fix buttons. fix stock issues. Why does it go up when you click no?
 
 CostumeDetail.propTypes = {
     costume: PropTypes.object,

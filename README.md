@@ -40,9 +40,10 @@ Table of contents
 ----------------------
 
 
-Known Bugs
+Known Bugs And Unfinished Behavior
 --------------------
-No known bugs
+* One of the buttons causes an infinite loop between forms when pressed. I DO NOT KNOW WHY. Labeled the button that breaks things as "Do Not Press"
+* Navigation bar does not do anything, it is purely for looks
 
 License
 --------------------

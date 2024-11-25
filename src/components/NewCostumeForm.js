@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import ReusableForm from "./ReusableForm";
 function NewCostumeForm(props) {
     function handleNewCostumeFormSubmission(costume) {
-        console.log(costume.target);
         costume.preventDefault();
         props.onNewCostumeCreation({
             names: costume.target.names.value,
@@ -13,7 +12,7 @@ function NewCostumeForm(props) {
             price: costume.target.price.value,
             size: costume.target.size.value,
             description: costume.target.description.value,
-            quantity: 0,
+            quantity: costume.target.quantity.value,
             id: v4()
         });
     }
