@@ -1,17 +1,17 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="rad-OM3xAtKhfUTnnuqS">
-        <mxGraphModel dx="1506" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1626" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="aeKoGPZsEb-PWAGv4kwy-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry y="40" width="1700" height="1040" as="geometry"/>
+                    <mxGeometry x="10" y="40" width="1640" height="1040" as="geometry"/>
                 </mxCell>
                 <mxCell id="HdBy2Fx3M0TaIa8yCIId-1" value="App" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="820" y="40" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="HdBy2Fx3M0TaIa8yCIId-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="10" y="70" width="1680" height="110" as="geometry"/>
+                    <mxGeometry x="10" y="70" width="1620" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="HdBy2Fx3M0TaIa8yCIId-3" value="Header" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="821.25" y="70" width="60" height="30" as="geometry"/>
@@ -20,221 +20,106 @@
                     <mxGeometry x="820" y="190" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="HdBy2Fx3M0TaIa8yCIId-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="270" width="260" height="280" as="geometry"/>
+                    <mxGeometry x="20" y="270" width="260" height="280" as="geometry"/>
                 </mxCell>
                 <mxCell id="HdBy2Fx3M0TaIa8yCIId-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="380" width="240" height="160" as="geometry"/>
+                    <mxGeometry x="30" y="375" width="240" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="HdBy2Fx3M0TaIa8yCIId-8" value="CostumeList" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="280" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="120" y="270" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="HdBy2Fx3M0TaIa8yCIId-9" value="Costume" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="380" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="120" y="375" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="HdBy2Fx3M0TaIa8yCIId-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="510" y="670" width="260" height="210" as="geometry"/>
+                    <mxGeometry x="560" y="340" width="260" height="210" as="geometry"/>
                 </mxCell>
                 <mxCell id="HdBy2Fx3M0TaIa8yCIId-11" value="CostumeDetail" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="610" y="710" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="660" y="360" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="781.25" y="230" width="260" height="320" as="geometry"/>
+                    <mxGeometry x="830" y="270" width="260" height="280" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1055" y="670" width="260" height="210" as="geometry"/>
+                    <mxGeometry x="1370" y="340" width="260" height="210" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="CostumePartDetail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1155" y="740" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="781.25" y="590" width="260" height="290" as="geometry"/>
-                </mxCell>
-                <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1328.75" y="590" width="260" height="290" as="geometry"/>
-                </mxCell>
-                <mxCell id="10" value="EditCostumeForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="881.25" y="630" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="11" value="EditCostumePartForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1428.75" y="630" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="788.75" y="750" width="245" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1337.5" y="750" width="242.5" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="14" value="ReusableForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="881.25" y="790" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="15" value="ReusablePartForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1428.75" y="790" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="1470" y="350" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="Main list of all costumes in stock. Costume Control gets all information of costumes from this list for the purposes of showing individual costumes." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="242.5" y="300" width="255" height="75" as="geometry"/>
+                    <mxGeometry x="22.5" y="300" width="255" height="75" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="Objects labeled as Costumes. These hold information on an objects name, brand, price, size, quantity, and extra information. All of this information can be viewed by clicking on the object, pulling up the object in CostumeDetail.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="262.5" y="400" width="215" height="130" as="geometry"/>
+                    <mxGeometry x="42.5" y="400" width="215" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="Page that allows the user to see the info of a costume. Accessed by clicking on a Costume on the main page, you can see a Costume's name, brand, size, description, quantity of stock, and while on this page you can add CostumeParts to the Costume in a dynamic list. Once added to the Costume, these CostumeParts will be listed below with the same available info.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="730" width="240" height="150" as="geometry"/>
-                </mxCell>
-                <mxCell id="21" value="Form that is made to be reusable with code. Good for updating Costumes or making a brand new Costume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="796.25" y="820" width="230" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="22" value="Form that is made to be reusable with code. Good for updating Costumes or making a brand new Costume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1343.75" y="820" width="230" height="50" as="geometry"/>
+                    <mxGeometry x="570" y="400" width="240" height="150" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="Page that allows the user to see the info of a CostumePart. Accessed by clicking on a CostumePart on the main page, you can see a CostumePart's name, brand, size, description, quantity of stock, ect. CostumeParts can be added to a Costume.&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1065" y="760" width="240" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="24" value="Form that is made to be reusable with code. Used to update a Costume if there is wrong information in the Costume or it is being updated." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="796.25" y="650" width="230" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="25" value="Form that is made to be reusable with code. Used to update a Costume if there is wrong information in the CostumePart or it is being updated." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1343.75" y="660" width="230" height="90" as="geometry"/>
+                    <mxGeometry x="1380" y="420" width="240" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="Placeholder, mainly used for styling at the moment." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="696.25" y="70" width="310" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="791.25" y="350" width="238.75" height="190" as="geometry"/>
+                    <mxGeometry x="840.63" y="380" width="238.75" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="CostumePartList" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="881.25" y="240" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="930" y="280" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="Main list of all costume parts in stock. Costume Control gets all information of costumes from this list for the purposes of showing individual costumes." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-                    <mxGeometry x="786.25" y="260" width="250" height="90" as="geometry"/>
+                    <mxGeometry x="835" y="300" width="250" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="Objects labeled as Costume Parts. These hold information on an objects name, brand, price, size, quantity, extra information, and which Costume they are connected to. These objects can be viewed by clicking on a Costume to view CostumeDetail. The Costume Part will be in a list underneath the Costume." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="801.25" y="430" width="220" height="90" as="geometry"/>
+                    <mxGeometry x="850.01" y="440" width="220" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="CostumePart" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="881.25" y="380" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="930" y="390" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="510" y="450" width="260" height="100" as="geometry"/>
+                    <mxGeometry x="290" y="340" width="260" height="210" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1055" y="450" width="260" height="100" as="geometry"/>
+                    <mxGeometry x="1100" y="340" width="260" height="210" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="NewCostumeForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="460" width="240" height="30" as="geometry"/>
+                    <mxGeometry x="305" y="350" width="240" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" value="NewCostumePartForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1065" y="460" width="240" height="30" as="geometry"/>
+                    <mxGeometry x="1110" y="345" width="240" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" value="ReusableForm that is used to make Costumes. In this form the user can add a name, brand, price, ect. onto a Costume." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="480" width="240" height="60" as="geometry"/>
+                    <mxGeometry x="300" y="380" width="240" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="45" value="ReusableForm that is used to make CostumeParts. In this form the user can add a name, brand, price, ect. onto a CostumePart." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="1065" y="490" width="240" height="60" as="geometry"/>
+                    <mxGeometry x="1110" y="375" width="240" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="57" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="586.25" y="110" width="530" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="Navigation tags" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                <mxCell id="58" value="Navigation tabs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="801.88" y="110" width="98.75" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="59" value="Placeholder buttons. Does nothing." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="600" y="130" width="500" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="" style="endArrow=classic;html=1;entryX=1.018;entryY=0.387;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.538;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="39" target="16" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="880" y="520" as="sourcePoint"/>
-                        <mxPoint x="930" y="470" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="650" y="330"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="306.88" y="450" width="226.25" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="" style="endArrow=classic;html=1;elbow=vertical;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="40" target="2" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="880" y="520" as="sourcePoint"/>
-                        <mxPoint x="930" y="470" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="1185" y="390"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="14" value="ReusableForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="395" y="450" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="" style="endArrow=classic;html=1;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="HdBy2Fx3M0TaIa8yCIId-10" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="640" y="640" as="sourcePoint"/>
-                        <mxPoint x="960" y="620" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="640" y="640"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="21" value="Form that is made to be reusable with code. Good for updating Costumes or making a brand new Costume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="332.00000000000006" y="480" width="186.87" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="" style="endArrow=classic;html=1;elbow=vertical;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="8" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="710" y="620" as="sourcePoint"/>
-                        <mxPoint x="960" y="630" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="710" y="630"/>
-                            <mxPoint x="710" y="570"/>
-                            <mxPoint x="846" y="570"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1107.5" y="440" width="242.5" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="" style="endArrow=classic;html=1;elbow=vertical;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2" target="4" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="910" y="610" as="sourcePoint"/>
-                        <mxPoint x="960" y="560" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="976" y="570"/>
-                            <mxPoint x="1120" y="570"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="15" value="ReusablePartForm" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1198.75" y="445" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="" style="endArrow=classic;html=1;elbow=vertical;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4" target="9" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="1240" y="610" as="sourcePoint"/>
-                        <mxPoint x="1290" y="560" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="1250" y="570"/>
-                            <mxPoint x="1394" y="570"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="67" value="" style="endArrow=classic;html=1;elbow=vertical;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="9" target="2" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="1170" y="510" as="sourcePoint"/>
-                        <mxPoint x="1220" y="460" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="1459" y="310"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="70" value="" style="endArrow=none;html=1;elbow=vertical;exitX=0.769;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="HdBy2Fx3M0TaIa8yCIId-10" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="770" y="610" as="sourcePoint"/>
-                        <mxPoint x="710" y="640" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="710" y="640"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="71" value="" style="endArrow=classic;html=1;elbow=vertical;exitX=-0.005;exitY=0.148;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="8" target="HdBy2Fx3M0TaIa8yCIId-6" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="770" y="610" as="sourcePoint"/>
-                        <mxPoint x="820" y="560" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="305" y="630"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="72" value="" style="endArrow=none;html=1;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="HdBy2Fx3M0TaIa8yCIId-6" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="530" y="610" as="sourcePoint"/>
-                        <mxPoint x="640" y="580" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="370" y="570"/>
-                            <mxPoint x="640" y="570"/>
-                            <mxPoint x="640" y="610"/>
-                            <mxPoint x="640" y="630"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="22" value="Form that is made to be reusable with code. Good for updating Costumes or making a brand new Costume" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1115" y="470" width="230" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
