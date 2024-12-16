@@ -16,6 +16,7 @@ class CostumeControl extends React.Component {
             selectedCostumeList: [],
             selectedCostume: null,
             selectedCostumePart: null,
+            showWarning: true
         };
     }
 
@@ -120,11 +121,15 @@ class CostumeControl extends React.Component {
             });
         }
     }
+
     render() {
         let currentlyVisibleState = null;
         let currentlyVisibleState2 = null;
         let buttonText = null;
         let buttonText2 = null;
+        let isVisible = true;
+        let isVisible2 = true;
+
         if (this.state.selectedCostume != null) {
             currentlyVisibleState =
                 <CostumeDetail
@@ -136,34 +141,40 @@ class CostumeControl extends React.Component {
                     selectedCostumeList={this.state.selectedCostumeList}
                     onAddCostumePart={this.handleAddingCostumePartToCostume} />
             buttonText = "Return to Costume List";
+            isVisible2 = false;
         } else if (this.state.selectedCostumePart != null) {
             currentlyVisibleState2 =
                 < CostumePartDetail
                     costumePart={this.state.selectedCostumePart}
                     onClickingDelete={this.handleDeletingCostumePart} />
-            buttonText = "Return to Costume List";
+            isVisible = false;
+            buttonText2 = "Return to Costume List";
         } else if (this.state.formVisibleOnPage) {
             currentlyVisibleState = <NewCostumeForm onNewCostumeCreation={this.handleAddingNewCostumeToList} />;
             buttonText = "Return to Costume List";
+            isVisible2 = false;
         } else if (this.state.formPartVisibleOnPage) {
             currentlyVisibleState2 = <NewCostumePartForm onNewCostumePartCreation={this.handleAddingNewCostumePartToList} />;
-            buttonText = "Do not Press"
+            isVisible = false;
             buttonText2 = "Return to Costume List";
         } else {
             currentlyVisibleState = <CostumeList costumeList={this.state.mainCostumeList} onCostumeSelection={this.handleChangingSelectedCostume} />;
             currentlyVisibleState2 = <CostumePartList costumePartList={this.state.mainCostumePartList} onCostumePartSelection={this.handleChangingSelectedCostumePart} />
+            isVisible = true;
+            isVisible2 = true;
             buttonText = "Add Costume";
             buttonText2 = "Add Costume Part";
         }
+
         return (
             <React.Fragment>
                 {currentlyVisibleState}
                 {currentlyVisibleState2}
-                <button id="buttonStyle" className="button-comp" onClick={this.handleClick}>{buttonText}</button>
-                <button id="buttonStyle" className="button-comp" onClick={this.handleClickPart}>{buttonText2}</button>
+                <button id="buttonStyle" className="button-comp" style={{ display: isVisible ? 'block' : 'none' }} onClick={this.handleClick}>{buttonText}</button>
+                <button id="buttonStyle2" className="button-comp" style={{ display: isVisible2 ? 'block' : 'none' }} onClick={this.handleClickPart}>{buttonText2}</button>
             </React.Fragment>
         );
     }
 }
-
+//boolean conditional rendering. If form is visible on page is true I don't want second button to show
 export default CostumeControl;
