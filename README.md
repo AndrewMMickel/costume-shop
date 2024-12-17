@@ -42,7 +42,6 @@ Table of contents
 
 Known Bugs And Unfinished Behavior
 --------------------
-* One of the buttons in CostumePartForm causes an infinite loop between forms when pressed. I DO NOT KNOW WHY. Labeled the button that breaks things as "Do Not Press"
 * Navigation bar does not do anything, it is purely for looks
 
 License
