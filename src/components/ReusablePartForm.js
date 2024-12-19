@@ -26,10 +26,12 @@ function ReusablePartForm(props) {
                 <input
                     type='number'
                     name='quantity'
+                    min='0'
                     placeholder='Quantity' />
                 <input
                     type='text'
                     name='size'
+                    maxLength='7'
                     placeholder='Size' />
                 <textarea
                     name='description'
