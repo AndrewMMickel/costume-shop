@@ -22,6 +22,7 @@ function ReusablePartForm(props) {
                 <input
                     type='number'
                     name='price'
+                    min='0'
                     placeholder='Price' />
                 <input
                     type='number'
