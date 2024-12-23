@@ -109,7 +109,7 @@ class CostumeControl extends React.Component {
     };
 
     handleSubtractingStock = (costume) => {
-        if (costume.quantity === 0) {
+        if (costume.quantity <= 0) {
             return;
         } else {
             const editedCostume = { ...costume, quantity: costume.quantity - 1 };
